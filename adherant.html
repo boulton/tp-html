@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Adherant </title>
+</head>
+
+<body>
+
+    <div>
+        <form>
+
+            <label for="Prenom">Prenom</label> :
+            <input type="text" name="Prenom" autocomplete="off "id="Prenom" autofocus required />
+            <br>
+            <label for="Nom">Nom</label> :
+            <input type="text" autocomplete="off" style="text-transform:uppercase" name="Nom" id="Nom" required />
+            <br>
+
+            <label for="dateN">Date de Naissance</label> :
+            <input type="date" name="date" id="dateN"  />
+            <br>
+            <label for="Email">Email</label> :
+            <input type="email" name="Email" id="Email" required />
+            <br>
+            <label for="Telephone">Telephone</label> :
+            <input  type="tel" maxlength="10" name="Telephone" id="Telephone" required />
+            <br>
+            <br>
+            <label for="contactpref"> Préférence de contact:</label>
+            <br>
+            <input type="radio" id="contactpref1" name="contactpref" value="email" required>
+            <label for="contactpref1">Em@il</label>
+            <br>
+            <input type="radio" id="contactpref2" name="contactpref" value="telephone" >
+            <label for="contactpref2">Telephone</label>
+            <br>
+            <br>
+            <label for="service"> Services souscrits:</label>
+            <br>
+            <input type="checkbox" id="service0" name="service0" value="service1" required>
+            <label for="service0">Animations</label>
+            <br>
+            <input type="checkbox" id="service1" name="service1" value="service2" required>
+            <label for="service1">Spectacles</label>
+            <br>
+            <input type="checkbox" id="service3" name="service3" value="service3" required>
+            <label for="service3">Emprunt Illimités</label>
+            <br>
+
+            <br>
+            <label for="codeParent">Code Parrain</label> :
+            <input type="text" max="10" name="codeParent" id="codeParent" />
+            <br>
+            <br>
+            <label for="pays"> Pays</label> :
+            <select name="pays" id=" pays" required>
+                <option value="FR">France</option>
+                <option value="ES">Espagne</option>
+                <option value="US">États-Unis</option>
+            </select >
+            <br>
+            <br>
+            <label for="vip">VIP :</label>
+            <input type="text" id="vip" value="False" required readonly>
+            
+            
+            <br>
+            <br>
+            
+            <input type="submit" value="Envoyer le formulaire">
+
+            
+    </form>
+</div>
+
+</body>
+</html>

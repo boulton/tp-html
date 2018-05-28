@@ -1,0 +1,77 @@
+.fond{
+    position:static;
+    -moz-filter: blur(5px);
+     filter: blur(5px);
+    background-image: url('http://kentville.ca/wp-content/uploads/2015/04/it_photo_78874.jpg');
+    background-repeat: repeat;
+     
+    
+}
+
+nav {
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.tendance {
+    width: 29%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 3px solid;
+}
+
+.notes {
+    display: inline-block;
+    width: 70%;
+    box-sizing: border-box;
+
+    border: 3px solid;
+
+}
+
+
+.post {
+    margin: 5px ;
+    display: : inline-block;
+    max-width: 200px;
+    border: 2px solid yellow;
+    background-color: lightgoldenrodyellow;
+}
+
+.post p:last-child {
+    text-align: right;
+    margin: 0;
+    font-size: 70%;
+}
+
+.indicateur {
+    margin-top:  
+    border: 2px solid;
+}
+
+/* --------------------------------*/
+
+.emprunt table {
+    background-color:#F7CDCD;
+    color: #991821;
+    width: 70%;
+    position: relative;
+    left: 20%;
+    text-align: center;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: aqua;
+    height: auto;
+    position: sticky;
+    bottom: 0;
+
+}
