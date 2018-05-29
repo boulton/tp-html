@@ -1,14 +1,42 @@
-.fond{
-    position:static;
+a {
+   text-decoration: none;
+    color:  black;
+} 
+
+#logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.background {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    right: 0;
+
     -moz-filter: blur(5px);
-     filter: blur(5px);
+    filter: blur(3px);
     background-image: url('http://kentville.ca/wp-content/uploads/2015/04/it_photo_78874.jpg');
     background-repeat: repeat;
-     
-    
+    height: 100%;
+}
+
+.contenu {
+    margin: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 5px double coral;
+    min-width: 400px;
+    max-width: 700px;
+    background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.9) 0%, rgba(230, 240, 230, 1) 50%, rgba(150, 150, 150, 0.99) 70%);
 }
 
 nav {
+    margin-top: 5px;
+    margin-bottom: 30px;
     border-radius: 10px;
     border: 2px solid blue;
     background-color: lightblue;
@@ -32,36 +60,52 @@ nav {
 }
 
 
-.post {
-    margin: 5px ;
+.notes .post {
+    margin: 5px;
     display: : inline-block;
     max-width: 200px;
     border: 2px solid yellow;
     background-color: lightgoldenrodyellow;
 }
 
-.post p:last-child {
+.notes .post p:last-child {
     text-align: right;
     margin: 0;
     font-size: 70%;
 }
 
 .indicateur {
-    margin-top:  
+    margin-top: 15px;
     border: 2px solid;
 }
 
 /* --------------------------------*/
 
-.emprunt table {
-    background-color:#F7CDCD;
+.emprunt table{
     color: #991821;
     width: 70%;
     position: relative;
     left: 20%;
     text-align: center;
 }
+.emprunt th {
+    border : 1px solid #ba2d2d;
+    background-color: #daaa;
 
+}.emprunt td {
+    border-bottom: 2px solid #020202;
+
+
+}
+.emprunt table tr:hover{
+    background-color: rgba(255, 238, 35, 1);
+}
+.emprunt tr:nth-child(even) {
+    background-color: #ffffff;
+}
+.emprunt tr:nth-child(odd) {
+    background-color: rgb(255, 220, 220);
+}
 
 
 
@@ -69,7 +113,8 @@ nav {
 
 
 footer {
-    background-color: aqua;
+    color: rgb(255, 10, 0);
+    background-color: rgb(24, 24, 114);
     height: auto;
     position: sticky;
     bottom: 0;
