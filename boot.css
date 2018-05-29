@@ -1,12 +1,4 @@
-li {
-    margin-left: 5px;
-}
 
-a {
-   
-    text-decoration: none;
-    color: black;
-}
 .formulaire{
     margin: 5% auto 0 auto ;
     width: 300px;
@@ -37,39 +29,25 @@ a {
 
 .contenu {
     margin: 30px;
-   
     margin-left: auto;
     margin-right: auto;
-    
+    padding: 10px;
     border: 3px solid #0031ff;
     border-radius: 8px;
     min-width: 400px;
-    max-width: 720px;
+    max-width: 700px;
     background-image: radial-gradient(rgba(255, 255, 255, 0.81) 70%, rgba(255, 255, 255, 0.51) 90%);
 }
 
-nav {
-    margin-top: 5px;
-    margin-bottom: 30px;
-    border-radius: 10px;
-    border: 2px solid blue;
-    background-color: lightblue;
-    text-align: center;
-}
 
 .tendance {
-    overflow: hidden;
-    margin: 0px;
-    border: 3px solid 
-    
+    margin: 5px;
+    width: 29%;
+    box-sizing: border-box;
+    display: inline-block;
+    border: 3px solid;
 }
 
-
-
-.tp-2 {
-    display: flex;
-    align-content: space-between;
-}
 
 .notes {
     margin: 5px;
@@ -103,7 +81,7 @@ nav {
 
 /* --------------------------------*/
 
- table {
+.emprunt table {
     margin-top: 25px;
     color: black;
     width: 70%;
@@ -112,7 +90,7 @@ nav {
     text-align: center;
 }
 
- caption {
+.emprunt caption {
     text-align: left;
     font-size: 28px;
 }

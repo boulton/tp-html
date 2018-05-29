@@ -11,20 +11,20 @@
 </head>
 
 <body>
-    <img id="logo" src="https://imgplaceholder.com/320x120/cccccc/757575/fa-book?text=LOGO"/>
+    <img id="logo" alt="logo" src="https://imgplaceholder.com/320x120/cccccc/757575/fa-book?text=LOGO" />
     <div class="background"></div>
     <div class="contenu">
-       
+
         <nav>
             <div class="main">
-               <i ></i>
-                <a class="fa fa-home" href="index.html" >Accueil</a>
+                <i></i>
+                <a class="fa fa-home" href="index.html">Accueil</a>
                 <span>&emsp;|&emsp;</span>
-                <a href="brouillon.html"> Brouillon</a>
+                <a href="brouillon.html"> Bootstraps</a>
                 <span>&emsp;|&emsp;</span>
-                <a class="fa fa-address-book" href="adherant.html"> Adhérant</a>
+                <a class="fa fa-address-book" href="adherent.html"> Adhérent</a>
                 <span>&emsp;|&emsp;</span>
-                
+
                 <a class="fa fa-university" href="bibliotheque.html"> Bibliothèque</a>
             </div>
         </nav>
@@ -43,9 +43,13 @@
             <div class="tendance">
                 <h3>Les Tendances</h3>
                 <div class="post">
-                    <p> Nombre d'emprunt :</p>
-                    <p> Types emprunté :</p>
-                    <p> emprunt </p>
+
+                    <i class="fa fa-thermometer-full" style="font-size:32px; color: red;"></i>
+                    <img alt="indicateur 1" src="https://picsum.photos/100/100/">
+                    <p></p>
+                    <i class="fa fa-thermometer-empty" style="font-size:32px; color: blue;"></i>
+                    <img alt="indicateur 3" src="https://picsum.photos/100/100">
+
                 </div>
             </div>
 
@@ -56,14 +60,17 @@
             <h3>Indicateurs de performances:</h3>
             <div class="progres">
                 <p>levé de fond :</p>
-                <img src="https://picsum.photos/100/100/" />
-                <img src="https://imgplaceholder.com/100x100" />
-                <img src="https://picsum.photos/100/100" />
+                <p> Nombre d'emprunt : 36</p>
+                <p> Types phare : Roman</p>
+                <p> Livres préféré : Allo Nabilla </p>
+
+                <img alt="indicateur 2" src="https://imgplaceholder.com/100x100" />
+
             </div>
 
         </div>
         <div class="emprunt">
-            <h1>Element a emprunter</h1>
+            <h1>Les emprunts :</h1>
 
             <table>
                 <caption> Nouveautés :</caption>
@@ -75,38 +82,34 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td><a title="Autre libre" href="objet.html">Non mais Allo </a></td>
-                        <td>paulo</td>
+                        <td ><a title="Autre libre" href="objet.html">Non mais Allo </a></td>
+                        <td><a title="Autre libre" href="objet.html">paulo</a></td>
                     </tr>
                     <tr>
-                        <td>Cell 2</td>
-                        <td>Cell 4</td>
+                        <td ><a title="La jeune fille et la nuit" href="https://www.decitre.fr/livres/la-jeune-fille-et-la-nuit-9782702163634.html">La jeune fille et la nuit</a></td>
+                        <td><a title="La jeune fille et la nuit" href="https://www.decitre.fr/livres/la-jeune-fille-et-la-nuit-9782702163634.html">Guillaume musso</a></td>
 
                     </tr>
                     <tr>
-                        <td>Cell 3</td>
-                        <td>Cell 4</td>
+                        <td><a title="Chanson Douce" href="https://www.decitre.fr/livres/chanson-douce-9782072764929.html">Chanson Douce</a></td>
+                        <td><a title="Chanson Douce" href="https://www.decitre.fr/livres/chanson-douce-9782072764929.html">Leila Slimani</a></td>
                     </tr>
                     <tr>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
+                        <td><a title="La fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">La fille comme elle</a></td>
+                        <td><a title="la fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">Marc Levy</a></td>
 
                     </tr>
                     <tr>
-                        <td>Cell 5</td>
-                        <td>Cell 4</td>
+                        <td><a title="A la lumiere du petit matin" href="https://www.decitre.fr/livres/a-la-lumiere-du-petit-matin-9782749929026.html">A la lumiere du petit matin</a></td>
+                        <td><a title="A la lumiere du petit matin" href="https://www.decitre.fr/livres/a-la-lumiere-du-petit-matin-9782749929026.html">Agnès Martin Lugand</a></td>
 
                     </tr>
                 </tbody>
             </table>
 
-            <br>
-            <br>
-            <br>
-            <p>test de autoreload</p>
-
+            
             <table>
-                <caption>Tableau des Emprunts</caption>
+                <caption>Tableau des Emprunts :</caption>
                 <thead>
                     <tr>
                         <th>Titre</th>
@@ -119,27 +122,52 @@
                 <tbody>
                     <tr>
                         <td><a title="Livre de nabilla" href="objet.html">Non mais Allo </a></td>
-                        <td>POTIN</td>
-                        <td>VANESSA L</td>
+                        <td>Potin</td>
+                        <td>Vanessa L.</td>
                         <td>Hier</td>
                     </tr>
                     <tr>
-                        <td>dfd</td>
-                        <td>Cell 3</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
+                         <td ><a title="La jeune fille et la nuit" href="https://www.decitre.fr/livres/la-jeune-fille-et-la-nuit-9782702163634.html">La jeune fille et la nuit</a></td>
+                        <td><a title="La jeune fille et la nuit" href="https://www.decitre.fr/livres/la-jeune-fille-et-la-nuit-9782702163634.html">Roman</a></td>
+                        <td>Patrick C.</td>
+                        <td>18/05/2018</td>
 
                     </tr>
                     <tr>
-                        <td>Cell 3</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-                        <td>Cell 4</td>
-
+                         <td ><a title="La fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">La fille comme elle</a></td>
+                        <td><a title="La fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">Roman</a></td>
+                        <td>MARK Z.</td>
+                        <td>10/04/2018</td>
+                    </tr>
+                    <tr>
+                         <td ><a title="La fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">La fille comme elle</a></td>
+                        <td><a title="La fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">Roman</a></td>
+                        <td>MARK Z.</td>
+                        <td>10/04/2018</td>
+                    </tr>
+                    <tr>
+                         <td ><a title="La fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">La Terre des morts</a></td>
+                        <td><a title="La fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">Polar</a></td>
+                        <td>Eric A.</td>
+                        <td>10/04/2018</td>
+                    </tr>
+                    <tr>
+                         <td ><a title="La fille comme elle" href="https://www.decitre.fr/livres/antigone-9782710381419.html">Antigone</a></td>
+                        <td><a title="La fille comme elle" href="https://www.decitre.fr/livres/antigone-9782710381419.html">Theatre</a></td>
+                        <td>Ludovic H.</td>
+                        <td>24/05/2018</td>
+                    </tr>
+                    <tr>
+                         <td ><a title="La fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">Le labyrinthe des esprits</a></td>
+                        <td><a title="La fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">Roman</a></td>
+                        <td>Carlos Ruiz Z.</td>
+                        <td>15/05/2018</td>
                     </tr>
                 </tbody>
                 <tfoot>
-                    <th colspan="4"> Total d'emprunts : 5</th>
+                    <tr>
+                        <th colspan="4"> Total d'emprunts : 5</th>
+                    </tr>
                 </tfoot>
 
             </table>

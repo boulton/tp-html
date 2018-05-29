@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title> Médiatheque </title>
+    <meta name="description" content="TP application mediatheque" />
+</head>
+
+
+<body>
+
+    <img id="logo" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>" alt="logo" src="https://imgplaceholder.com/320x120/cccccc/757575/fa-book?text=LOGO" />
+    <div class="background"></div>
+    <div class="contenu">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand fa fa-book" href="#"> BookStrap</a>
+                </div>
+                <ul class="navbar-nav">
+                    <li><a class="nav-item active fa fa-home" href="index.html">Accueil</a></li>
+
+                    <li><a class="nav-item  glyphicon glyphicon-bold" href="brouillon.html">bootstraps</a></li>
+
+                    <li><a class=" nav-item fa fa-address-book" href="adherent.html"> Adhérent</a></li>
+
+                    <li><a class=" nav-item fa fa-university" href="bibliotheque.html"> Bibliothèque</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-4 "> Img avec tooltip: <img data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>" alt=" une image" src="https://picsum.photos/150/150"></div>
+                <div class=" tendance col-xs-12 col-sm-6 col-md-4">E2
+                    <ol class="breadcrumb">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Library</a></li>
+                        <li class="active">Data</li>
+                    </ol>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 indicateur hidden-xs ">E3 <br>Indicateurs <img alt="une image" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>with</u> <b>HTML</b>" src="https://picsum.photos/150/150"></div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 tendance ">E4
+                    <button class="btn btn-default" type="button">LE PLUS BEAU BUTTONNNNNNN</button>
+                    <button class="btn btn-primary" type="button">LE PLUS BEAU BUTTONNNNNNN</button>
+                    <button class="btn btn-warning" type="button">LE PLUS BEAU BUTTONNNNNNN</button>
+                    <button class="btn btn-info" type="button">LE PLUS BEAU BUTTONNNNNNN</button>
+                    <button class="btn btn-success" type="button">LE PLUS BEAU BUTTONNNNNNN</button>
+
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-4 hidden-xs tendance emprunt ">
+                    <table>
+                        <caption> Nouveautés :</caption>
+                        <thead>
+                            <tr>
+                                <th>Titre </th>
+                                <th>Auteurs</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td><a title="Autre libre" href="objet.html">Non mais Allo </a></td>
+                                <td><a title="Autre libre" href="objet.html">paulo</a></td>
+                            </tr>
+                            <tr>
+                                <td><a title="La jeune fille et la nuit" href="https://www.decitre.fr/livres/la-jeune-fille-et-la-nuit-9782702163634.html">La jeune fille et la nuit</a></td>
+                                <td><a title="La jeune fille et la nuit" href="https://www.decitre.fr/livres/la-jeune-fille-et-la-nuit-9782702163634.html">Guillaume musso</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a title="Chanson Douce" href="https://www.decitre.fr/livres/chanson-douce-9782072764929.html">Chanson Douce</a></td>
+                                <td><a title="Chanson Douce" href="https://www.decitre.fr/livres/chanson-douce-9782072764929.html">Leila Slimani</a></td>
+                            </tr>
+                            <tr>
+                                <td><a title="La fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">La fille comme elle</a></td>
+                                <td><a title="la fille comme elle" href="https://www.decitre.fr/livres/une-fille-comme-elle-9782221157862.html">Marc Levy</a></td>
+
+                            </tr>
+                            <tr>
+                                <td><a title="A la lumiere du petit matin" href="https://www.decitre.fr/livres/a-la-lumiere-du-petit-matin-9782749929026.html">A la lumiere du petit matin</a></td>
+                                <td><a title="A la lumiere du petit matin" href="https://www.decitre.fr/livres/a-la-lumiere-du-petit-matin-9782749929026.html">Agnès Martin Lugand</a></td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="clearfix"></div>
+
+                <div class="col-xs-12 col-sm-6 col-md-4 tendance emprunt ">
+
+                    <p>Synopsis mit en avant</p>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
